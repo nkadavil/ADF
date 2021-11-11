@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_758",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DataSiteV2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "TPCH_SF1",
+			"table": "CUSTOMER"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

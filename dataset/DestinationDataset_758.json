@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_758",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "TGTDataSiteBlobv2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "TGT",
+				"container": "datasite2"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
